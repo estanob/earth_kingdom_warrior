@@ -5,10 +5,11 @@
     <title>Earth Kingdom Warrior</title>
     <link rel="stylesheet" href="src/style.css">
   </head>
-  <body>
+  <body class="background">
     <header>
       <h1>Earth Kingdom Warrior</h1>
     </header>
+
     <div class="welcome-screen" id="welcome">
       <h2>Welcome!</h2>
       <p>This is an Avatar: The Last Airbender earthbending themed game.</p>
@@ -24,6 +25,10 @@
         Press z to collect the boulders as ammo!
       </p>
       <button class="game-button" id="continue">Continue</button>
+    </div>
+
+    <div class="hidden" id="game-container">
+      <canvas id="game-canvas" class="hidden"></canvas>
     </div>
   </body>
   <footer>

@@ -24,6 +24,21 @@ header {
   display: none;
 }
 
+.hidden::before {
+  display: none;
+}
+
+.background {
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  width: 98vw;
+}
+
+.welcome-screen {
+  text-align: center;
+}
+
 .game-button {
   text-decoration: none;
   background: none;

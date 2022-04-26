@@ -2,7 +2,7 @@
   "name": "earth_kingdom_warrior",
   "version": "1.0.0",
   "description": "ATLA earth bending themed game",
-  "main": "index.js",
+  "main": "./lib/earth_kingdom_warrior.js",
   "dependencies": {
     "unirest": "^0.6.0",
     "webpack": "^5.48.0"

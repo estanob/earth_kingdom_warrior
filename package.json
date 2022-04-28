@@ -2,7 +2,7 @@
   "name": "earth_kingdom_warrior",
   "version": "1.0.0",
   "description": "ATLA earth bending themed game",
-  "main": "./lib/earth_kingdom_warrior.js",
+  "main": "index.js",
   "dependencies": {
     "unirest": "^0.6.0",
     "webpack": "^5.48.0"
@@ -22,8 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/estanob/earth_kingdom_warrior.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "estanob",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/estanob/earth_kingdom_warrior/issues"

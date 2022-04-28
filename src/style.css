@@ -54,6 +54,11 @@ header {
   border: 5px solid #79FF00;
 }
 
+#game-container {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   margin-top: 10px;
   margin-right: 5px;
